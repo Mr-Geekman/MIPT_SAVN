@@ -2,3 +2,4 @@ examples/
 to_send/
 .venv/
 .idea/
+.ipynb_checkpoints/
