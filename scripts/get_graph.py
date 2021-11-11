@@ -35,10 +35,8 @@ def get_friends(user_id: int, access_token: str) -> List[Dict[str, Any]]:
 
 
 def main():
-    # user_id = input('Type in your user id: ')
-    # access_token = input('Type in access token: ')
-    user_id = 263320076
-    access_token = 'b0a605004c015018eb65c0170a9fd11b3ecf113d3a9b06abba154e6c9053386b6a813fc786ed489c65082'
+    user_id = input('Type in your user id: ')
+    access_token = input('Type in access token: ')
 
     my_friends = get_friends(user_id, access_token)
     nodes = [x['id'] for x in my_friends]

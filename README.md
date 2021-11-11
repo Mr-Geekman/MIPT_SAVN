@@ -1,6 +1,7 @@
-# Project on analysis of VK ego graph
+# Social Network Analysis Project
 
 This is a project in Structural Analysis and Visualization of Networks course.
+We are going to analyze my ego-graph in [vk](https://vk.com) social network.
 
 ## Getting a graph
 
